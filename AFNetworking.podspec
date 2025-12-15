@@ -26,6 +26,9 @@ Pod::Spec.new do |s|
 
   s.subspec 'Security' do |ss|
     ss.source_files = 'AFNetworking/AFSecurityPolicy.{h,m}'
+  end
+  
+  s.subspec 'PrivacyInfo' do |ss|
     ss.source_files = 'AFNetworking/PrivacyInfo.xcprivacy'
   end
 
